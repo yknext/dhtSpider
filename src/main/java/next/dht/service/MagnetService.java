@@ -56,7 +56,7 @@ public class MagnetService extends Thread{
                     }
                     else
                     {
-                        Thread.sleep(10000);
+                        Thread.sleep(60000);//一分钟处理一次Redis
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
